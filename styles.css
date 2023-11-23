@@ -10,7 +10,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background: linear-gradient (110deg, rgb(3, 3, 104), white);
     align-items: center;
 }
 
