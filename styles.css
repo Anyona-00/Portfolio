@@ -10,8 +10,11 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    background: linear-gradient (110deg, rgb(3, 3, 104), white);
+    background:  rgb(3, 3, 104);
     align-items: center;
+     width: 80%;
+     border-radius: 20px;
+     margin: 0 auto;
 }
 
 .navbar .logo{
@@ -27,6 +30,7 @@ body{
 
 .navbar-links li { 
     list-style: none;
+    font-size: x-large;
 }
 
 .navbar-links ul li a {
@@ -36,8 +40,12 @@ body{
     padding: 2.5rem;
 }
 
-.navbar-links li:hover{
-    background-color: blanchedalmond;
+.navbar-links  a:hover{
+    background-color: rgb(161, 161, 161);
+   
+    border-radius: 10px;
+
+
 
 }
 
