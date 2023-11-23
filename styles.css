@@ -6,3 +6,65 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+.navbar .logo{
+    color: aliceblue;
+    font-size: xx-large;
+}
+ .navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-links li { 
+    list-style: none;
+}
+
+.navbar-links ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 2.5rem;
+}
+
+.navbar-links li:hover{
+    background-color: blanchedalmond;
+
+}
+
+
+.toggle-button{
+    
+    display: flex;
+    position: absolute;
+    top:2rem;
+    right: 1rem;
+    flex-direction: column;
+    width: 30px;
+    height: 21px;
+    justify-content: space-between;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+   ;
+}
+
+
+@media (max-width:600px) {
+
+
+    
+}
